@@ -1,11 +1,11 @@
-import Nav from "./components/Nav";
-import Footer from "./components/Footer";
-import Home from "./pages/Home";
-import Books from "./pages/Books";
-import { books } from "./data";
-import BookInfo from "./pages/BookInfo";
+import Nav from "./components/Nav.jsx";
+import Footer from "./components/Footer.jsx";
+import Home from "./pages/Home.jsx";
+import Books from "./pages/Books.jsx";
+import { books } from "./data.js";
+import BookInfo from "./pages/BookInfo.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Cart from "./pages/Cart";
+import Cart from "./pages/Cart.jsx";
 import React, { useEffect, useState } from "react";
 
 function App() {
